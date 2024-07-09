@@ -1,31 +1,33 @@
 img {
-    border-radius: 150px;
-    width: 300px;
-    height: 300px;
-  }
-  
-  h2{
-    font-size: 30px;
-  }
-  
-  body {
-    background-color: darkslateblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: antiquewhite;
-    text-align: center;
-    text-shadow: 1px 2px 2px black;
-  }
-  
-  a {
-    background-color: antiquewhite;
-    font-size: 20px;
-    border-radius: 10px;
-    padding: 10px;
-    color:darkslateblue;
-    text-decoration: none;
-    font-family: 'Times New Roman', Times, serif;
-    text-shadow: none;
-    display: block;
-    margin: 10px;
-  }
-  
+  width: 100px;
+  border-radius: 50px;
+}
+h2 {
+  font-size: 24px;
+}
+
+body {
+ background: linear-gradient(to right, slateblue, rgb(60, 6, 92));
+  color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-align: center;
+}
+a {
+  background-color: antiquewhite;
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: slateblue;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+
+a:hover {
+  color: blanchedalmond;
+  background-color: black;
+  transform: scale(1.05);
+}
